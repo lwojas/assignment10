@@ -54,10 +54,16 @@ body {
 
 a:link {
 	color: turquoise;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 a:visited {
 	color: turquoise;
+	text-decoration: none;
 }
 
 .menu-button {

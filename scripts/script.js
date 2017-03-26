@@ -3,6 +3,8 @@ $(document).ready( function () {
 	$(".content-box").hide();
 	$(".image-box").hide();
 	$(".assignment1").hide();
+	$(".portfolio-grid").hide();
+	$(".portfolio-grid").fadeIn(1000);
 	$(".content-box").fadeIn(1000, function(){
 		$(".image-box").fadeIn(500);
 	});
@@ -58,10 +60,6 @@ $(document).ready( function () {
 		};
 	};*/
 
-	
-	/*$('.plane').transition({transform: 'rotateY(10deg)'}, 2000, function(){
-		floater();
-	});*/
 	/*var user = Cookies.get('name');
 	
 	if (Cookies.get('name') == undefined) {
