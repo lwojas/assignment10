@@ -12,6 +12,7 @@ $(document).ready( function () {
 	var one = $('#one');
 	floatAnimation();
 	
+	/*
 	$(window).scroll(function(event){
 		if (LoopScroll === true) {
 			LoopScroll = false;
@@ -26,6 +27,7 @@ $(document).ready( function () {
 			});
 		};
    	});
+   	*/
 
 	function floatAnimation() {
 		$('.plane').transition({transform: 'rotateY(5deg) translateZ(10px)'}, 5000, function(){
